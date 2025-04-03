@@ -6,7 +6,7 @@ import { celoPlugin } from '@elizaos/plugin-celo';
 export const mainCharacter = {
     name: "D.A.R.V.S.",
     //clients: [Clients.TWITTER],
-    clients: [],
+    clients: [Clients.TELEGRAM],
     modelProvider: ModelProviderName.HYPERBOLIC,
     plugins: [nasaPlugin,celoPlugin],
     settings: {
